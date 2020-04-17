@@ -3,9 +3,7 @@
 # The InSpec reference, with examples and extensive documentation, can be
 # found at https://www.inspec.io/docs/reference/resources/
 
-describe package('packer') do
-  it { should be_installed }
-end
+
 
 describe package('chef') do
   it { should be_installed }
