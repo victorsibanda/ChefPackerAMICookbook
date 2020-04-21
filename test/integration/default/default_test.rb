@@ -8,3 +8,7 @@
 describe package('chef') do
   it { should be_installed }
 end
+
+describe package('packer') do
+  it { should be_installed }
+end
